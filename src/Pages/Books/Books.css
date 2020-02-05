@@ -1,0 +1,68 @@
+.CardsContainer {
+    margin: 100px 5%;
+    box-sizing: border-box;
+}
+
+.BooksGridView{
+  display: grid; /* 1 */
+  grid-template-columns: repeat(auto-fill, 18rem); /* 2 */
+  grid-gap: 1rem; /* 3 */
+  justify-content: space-around; /* 4 */
+  overflow: scroll;
+}
+
+/* .BooksContainer{
+margin: auto 10%;
+
+} */
+
+*,
+:before,
+:after {
+  box-sizing: border-box;
+}
+
+.GenreListView{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: center;
+    position: inherit;
+}
+
+.GenreContainer{
+    width: 100%;
+    padding: 5px;
+     overflow: auto; 
+     overflow-y: hidden;
+     -ms-overflow-y:hidden;
+    position: relative;
+}
+
+.ImageContainer{
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    margin: 0px;
+    padding: 0px;
+    background-repeat: repeat;
+    background-attachment:fixed;
+    background-position: top center;
+}
+
+.MainContainer{
+    overflow: hidden;
+}
+
+@media (max-width:320px){
+    .CardsContainer{
+        margin: 100px 10px;
+        box-sizing: border-box;
+        overflow: scroll;
+    }
+}

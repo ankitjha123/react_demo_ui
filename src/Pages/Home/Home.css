@@ -1,0 +1,23 @@
+.MainContainer {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+}
+
+.ImageContainer{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    margin: 0px;
+    padding: 0px;
+}
+
+.contentContainer{
+    margin-left: 10px;
+    font-family: 'Dancing Script', cursive;
+
+}

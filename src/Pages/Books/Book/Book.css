@@ -1,0 +1,33 @@
+.CardContainer {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px; 
+    background-color: #EAF0F1;
+}
+
+.ButtonContainer {
+    margin: 10px auto
+}
+
+.imgContainer {
+    width: 17rem;
+    height: 300px;
+    /* object-fit: cover; */
+}
+
+.cardFooter{
+    overflow: scroll;
+    background-color: inherit;
+    font-family: 'Lato', sans-serif;
+}
+
+.popoverDesign {
+    max-width: 300px;
+    max-height: 400px;
+    overflow: scroll;
+    position : relative;
+    font-family: 'Lato', sans-serif;
+}
+
+

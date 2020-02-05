@@ -1,0 +1,66 @@
+.CardContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    margin-right: 20px; 
+    background-color: #EAF0F1;
+    height: 8rem;
+    width: 15rem;
+    border-radius: 21px 21px 21px 21px;
+    -moz-border-radius: 21px 21px 21px 21px;
+    -webkit-border-radius: 21px 21px 21px 21px;
+    -webkit-box-shadow: 5px 14px 33px -19px rgba(0,0,0,0.66);
+    -moz-box-shadow: 5px 14px 33px -19px rgba(0,0,0,0.66);
+    box-shadow: 5px 14px 33px -19px rgba(0,0,0,0.66);
+    color:#000;
+    font-family: 'Dancing Script', cursive;
+    border: none;
+    cursor: pointer;
+}
+
+
+.CardContainer:hover{
+    margin: 10px;
+    margin-right: 20px; 
+    transform: scale(1.1);
+}
+
+.fontStyle{
+    font-weight: 500;
+    -webkit-transform:scale(1.7,1.5); /* Safari and Chrome */
+    -moz-transform:scale(1.7,1.5); /* Firefox */
+    -ms-transform:scale(1.7,1.5); /* IE 9 */
+    -o-transform:scale(1.7,1.5); /* Opera */
+    transform:scale(1.7,1.5); /* W3C */
+    color: #2B2B52;
+}
+
+.ButtonContainer {
+    margin: 2px auto
+}
+
+@media (max-width:320px) and (max-width : 667px) {
+    .CardContainer{
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+        margin-right: 20px; 
+        background-color: #EAF0F1;
+        height: 7rem;
+        width: 14rem;
+        border-radius: 21px 21px 21px 21px;
+        -moz-border-radius: 21px 21px 21px 21px;
+        -webkit-border-radius: 21px 21px 21px 21px;
+        -webkit-box-shadow: 5px 14px 33px -19px rgba(0,0,0,0.66);
+        -moz-box-shadow: 5px 14px 33px -19px rgba(0,0,0,0.66);
+        box-shadow: 5px 14px 33px -19px rgba(0,0,0,0.66);
+        font-family: 'Dancing Script', cursive;
+        border: none;
+        cursor: pointer;
+    }
+}
+/* background-image: linear-gradient(to right, #8e9eab 0%, #eef2f3 51%, #8e9eab 100%) */
+.defaultStyle {background-image: linear-gradient(to right, #c1c1c1 0%, #eef2f3 51%, #8e9eab 100%)};

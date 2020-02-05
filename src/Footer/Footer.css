@@ -1,0 +1,9 @@
+.FooterStyle{
+  background-color: #99AAAB;
+  filter: blur(5px);
+}
+
+.MainContainer{
+  opacity: 0.5;
+  filter: alpha(opacity=50)
+}

@@ -1,0 +1,13 @@
+.NavbarContainer{
+    font-family: 'Lato', sans-serif;
+}
+
+.ItemContainer {
+    margin: 0px 40px;
+    display:inline-block;
+    -webkit-transform:scale(1.4,1.5); /* Safari and Chrome */
+    -moz-transform:scale(1.4,1.5); /* Firefox */
+    -ms-transform:scale(1.4,1.5); /* IE 9 */
+    -o-transform:scale(1.4,1.5); /* Opera */
+    transform:scale(1.4,1.4); /* W3C */
+}

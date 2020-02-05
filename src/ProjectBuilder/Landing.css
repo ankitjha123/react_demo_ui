@@ -1,0 +1,14 @@
+.MainContainer {
+   height: 100%;
+   width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.FooterContainer{
+    overflow: hidden;
+    position: relative;
+    /* margin-bottom: -100%; */
+    /* z-index: 100; */
+    align-items: flex-end;
+}
